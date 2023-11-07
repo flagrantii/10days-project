@@ -11,7 +11,7 @@ export default async function getStaticProps() {
 
   return(
     <div>
-      <div>
+      <div className="flex flex-wrap justify-center">
        {data.products.map((product) => (
          <ProductCard key={product.id} product={product} />
         ))}
