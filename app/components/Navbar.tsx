@@ -26,7 +26,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <Image
                 className="h-8 w-auto"
-                src='../public/mark.svg'
+                src='/mark.svg'
                 alt=""
                 width={32}
                 height={32}
